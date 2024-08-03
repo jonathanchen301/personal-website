@@ -1,0 +1,91 @@
+body {
+    height: 100%;
+    width: 99%;
+    margin: 0;
+    background-color: #212A31;
+    color: #FFFFFF;
+}
+
+/* Navbar */
+
+.navbar {
+    color: #748D92;
+    font-size: 1.5rem;
+    line-height: 0;
+}
+
+.navbar ul {
+    text-align: left;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    color: #748D92;
+}
+
+.navbar a {
+    color: #748D92;
+    text-decoration: none;
+}
+
+.navbar a.current-page {
+    color: #FFFFFF;
+    border-bottom: 0.1rem solid #FFFFFF;
+    padding-bottom: 0.7rem;
+}
+
+/* Main Block */
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10rem;
+    /* border: 1px solid white; */
+}
+
+/* Photo */
+
+.photo-section {
+    grid-column: 1 / 2;
+    justify-self: center;
+    margin-top: 2rem;
+    padding-left: 10rem;
+}
+
+.photo {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 13.75rem;
+}
+
+/* About */
+
+.about-section {
+    grid-column: 2 / 3;
+}
+
+.about-section h1 {
+    font-size: 3rem;
+}
+
+.about-section p {
+    font-size: 1.5rem;
+    margin-top: 0.469rem;
+    margin-bottom: 0.469rem;
+    color: #D3D9D4;
+}
+
+.about-section a {
+    color: #FFFFFF;
+    border-bottom: 0.1rem solid #FFFFFF;
+    padding-bottom: 0.7rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-top: 2rem;
+}
